@@ -1,0 +1,121 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #3b3b98;
+    padding: 16px 32px;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.app-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.container {
+    flex: 1;
+    max-width: 700px;
+    width: 100%;
+    margin: 24px auto 0 auto;
+    padding: 24px 16px 100px 16px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    /* Add this for vertical stacking */
+}
+
+/* Message bubbles */
+.message {
+    padding: 12px 18px;
+    margin: 12px 0;
+    border-radius: 22px;
+    font-size: 1.1rem;
+    max-width: 70%;
+    word-break: break-word;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    animation: fadeIn 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Align left messages to the left */
+.left {
+    align-self: flex-start;
+    background: #f1f0f0;
+    color: #222;
+}
+
+/* Align right messages to the right */
+.right {
+    align-self: flex-end;
+    background: #3b3b98;
+    color: #fff;
+}
+
+.send-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(59,59,152,0.95);
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#send-container {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#messageInp {
+    flex: 1;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 18px;
+    font-size: 1.1rem;
+    outline: none;
+    margin-right: 12px;
+    background: #f1f0f0;
+    color: #222;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.btn {
+    background: #74ebd5;
+    color: #222;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #ACB6E5;
+}
