@@ -11,10 +11,6 @@ ChatConnect lets users join a chat room and exchange messages instantly.
 - Audio notification for new messages
 - Easy to run locally
 
-## Screenshots
-
-![ChatConnect UI](screenshot.png) <!-- Add your screenshot file if available -->
-
 ## Getting Started
 
 ### Prerequisites
@@ -26,7 +22,7 @@ ChatConnect lets users join a chat room and exchange messages instantly.
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/ChatConnect.git
+    git clone https://github.com/SHREYASH1504/ChatConnect.git
     cd ChatConnect
     ```
 
@@ -41,7 +37,6 @@ ChatConnect lets users join a chat room and exchange messages instantly.
     ```
 
 4. **Open the frontend:**
-    - You can use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code, or
     - Open `index.html` directly in your browser.
 
 5. **Chat!**
@@ -67,10 +62,6 @@ Real Time Chatting/
 - Update logo in `chat.png`
 - Edit notification sound in `ting.mp3`
 
-## License
 
-This project is licensed under the MIT License.
 
----
-
-**Made with ❤️ using Node.js and Socket.IO**
+**Made by SHREYASH NIKHARE ❤️ using Node.js and Socket.IO**
